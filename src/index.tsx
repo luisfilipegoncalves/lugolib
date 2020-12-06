@@ -1,5 +1,7 @@
 import React, { FC, HTMLAttributes, ReactChild } from 'react';
 
+export { default as Avatar } from "./atoms/avatar";
+
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   /** custom content, defaults to 'the snozzberries taste like snozzberries' */
   children?: ReactChild;
